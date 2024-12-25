@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Sanjay Kumar showcasing skills, services, and projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Portfolio - Sanjay Kumar</title>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="sanjay-logo.png" alt="sanjay-logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            Hi, I'm <span>Sanjay</span><br />
+            <span>Kumar</span> From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ---------About----------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img2.jpg" alt="sanjay-logo2" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-title">About Me</h2>
+            <p id="pabout">
+              I am a computer science engineering student with a passion for <b>web
+                development</b> and <b>problem-solving</b>. I actively explore new
+              technologies to create <b><i>modern</i></b> and efficient web solutions.
+              Specialized in creating modern, efficient web solutions while
+              continuously exploring innovative trends.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links" onclick="opentab(event, 'skills')">Skills</p>
+              <p class="tab-links" onclick="opentab(event, 'experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'education')">
+                Education
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UI/UX</span><br />
+                  Designing user-friendly interfaces. Focused on enhancing user experience across web and mobile.
+                </li>
+                <li>
+                  <span>Web Development</span><br />
+                  Building responsive websites. Ensuring seamless functionality across devices and browsers.
+                </li>
+                <li>
+                  <span>App Development</span><br />
+                  Creating mobile applications. Aiming for smooth performance and user-centric design.
+                </li>
+              </ul>
+            </div>
+            
+            
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Frontend Developer Intern - 2024 (Feb - Apr)</span><br />
+                  Bright Geeks Pvt Ltd<br />
+                  Worked on building and optimizing user interfaces for web applications, focusing on responsive design and performance enhancements.
+                </li>
+                <li>
+                  <span>Web Developer Intern - 2023 (Jun - Aug)</span><br />
+                  Tech Solutions Ltd<br />
+                  Collaborated with the development team to create dynamic websites, integrated APIs, and improved website functionality.
+                </li>
+                <li>
+              </ul>
+            </div>
+            
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021-present</span><br />
+                  Bachelor's Degree in Computer Science
+                </li>
+                <li>MLR Institute of technology</li>
+                <li>
+                  <span>2019-2021</span><br />
+                  Intermediate - MPC
+                </li>
+                <li>Loyola Junior College</li>
+                <li>
+                  <span>2019</span><br />
+                  schooling
+                </li>
+                <li>Gauthami Techno school</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------services------------ -->
+    <div id="services">
+      <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+          <div>
+            <h2>Web Design</h2>
+            <p>
+              Crafting visually appealing and user-friendly websites that are responsive and optimized for all devices.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <h2>UI/UX Design</h2>
+            <p>
+              Designing intuitive user interfaces and seamless user experiences for both web and mobile applications.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <h2>App Design</h2>
+            <p>
+              Developing engaging and easy-to-use mobile app designs that focus on user experience and performance.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------- porfolio ------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work1.png" alt="work_img1">
+            <div class="layer">
+              <h3>Fashion commerce</h3>
+              <p>The app is a web applications where you can shop trendy clothes.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work2.png" alt="work_img2">
+            <div class="layer">
+              <h3>FakeFlix</h3>
+              <p>The app is a replica of netflix app you can search for movie trailers.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work3.png" alt="work_img3">
+            <div class="layer">
+              <h3>DoorDash</h3>
+              <p>Food delivery app with list of food items in metro cities.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn1">See more</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- -----------contact------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i>sanjaykumargoud4034@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 720***8379</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/sanjay-kumar-833353296/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/sanjaykumar-git" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="Email" placeholder="Your Email" required />
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright © Sanjay. Made with <i class="fa-solid fa-heart"></i> by
+        Sanjay kumar
+      </p>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
