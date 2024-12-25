@@ -20,7 +20,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(/image1.png); /* Background image */
+  background-image: url(image1.png); /* Background image */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;  /* Key property for parallax effect */
@@ -303,7 +303,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(/image1small.png);
+    background-image: url(image1small.png);
   }
 
   .header-text {
